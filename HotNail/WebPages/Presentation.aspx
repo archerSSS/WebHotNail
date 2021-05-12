@@ -18,7 +18,6 @@
                     <asp:Image runat="server" ImageUrl='<%# Container.DataItem %>' Height="400" Width="400"/>
                 </ItemTemplate>
             </asp:Repeater>
-            
         </div>
     </form>
 </body>
