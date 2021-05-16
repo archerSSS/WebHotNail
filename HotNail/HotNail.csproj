@@ -70,6 +70,7 @@
     <Resource Include="Images\Presentation\1.JPG">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Resource>
+    <Content Include="CSS\Presentation\Presentation.css" />
     <Content Include="Images\Presentation\2.JPG" />
     <Content Include="Images\Presentation\3.JPG" />
     <Content Include="Images\Presentation\4.JPG" />

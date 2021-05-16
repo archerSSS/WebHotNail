@@ -1,0 +1,11 @@
+﻿.list-images {
+    position: absolute;
+    margin-left: 25%;
+}
+
+.panel--top {
+    background-color: brown;
+    color: aqua;
+    width: 300px;
+    height: 100px;
+}

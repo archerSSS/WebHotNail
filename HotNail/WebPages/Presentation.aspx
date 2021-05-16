@@ -6,13 +6,17 @@
 <head runat="server">
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
     <title></title>
+    <link href="../CSS/Presentation/Presentation.css" rel="stylesheet" type="text/css" />
 </head>
 <body>
     <form id="form1" runat="server">
-        <div>
-            <asp:Button runat="server" Height="50" Width="50" BackColor="Tomato" />
+        <div class="panel--top">
+            <asp:Button runat="server" CssClass="panel--top" />
         </div>
         <div>
+            <asp:Button runat="server" Height="50" Width="50" BackColor="Tomato"/>
+        </div>
+        <div class="list-images">
             <asp:Repeater ID="RepeaterImagePresentation" runat="server">
                 <ItemTemplate>
                     <asp:Image runat="server" ImageUrl='<%# Container.DataItem %>' Height="400" Width="400"/>
