@@ -7,15 +7,13 @@
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
     <title></title>
     <link href="../CSS/Presentation/Presentation.css" rel="stylesheet" type="text/css" />
+    <link href="../CSS/MainStyles.css" rel="stylesheet" type="text/css" />
 </head>
-<body>
+<body class="background">
     <form id="form1" runat="server">
         <div class="panel--top">
-            <asp:Button runat="server" CssClass="panel--top" />
         </div>
-        <div>
-            <asp:Button runat="server" Height="50" Width="50" BackColor="Tomato"/>
-        </div>
+        <div style="height: 10px"></div>
         <div class="list-images">
             <asp:Repeater ID="RepeaterImagePresentation" runat="server">
                 <ItemTemplate>

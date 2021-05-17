@@ -1,11 +1,13 @@
 ﻿.list-images {
     position: absolute;
-    margin-left: 25%;
+    margin-left: 10%;
 }
 
 .panel--top {
-    background-color: brown;
-    color: aqua;
-    width: 300px;
+    background: linear-gradient(to top, #2288aa, #126699);
+    border-radius: 20px;
+    width: auto;
     height: 100px;
 }
+
+
