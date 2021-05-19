@@ -11,7 +11,10 @@
 </head>
 <body class="background">
     <form id="form1" runat="server">
-        <div class="panel--top">
+        <div class="panel-top">
+            <asp:Button runat="server" CssClass="panel-top__button"/>
+            <asp:Button runat="server" CssClass="panel-top__button"/>
+            <asp:Button runat="server" CssClass="panel-top__button"/>
         </div>
         <div style="height: 10px"></div>
         <div class="list-images">
