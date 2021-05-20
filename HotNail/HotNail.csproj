@@ -67,17 +67,19 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Resource Include="Images\Presentation\1.JPG">
+    <Resource Include="Images\Gallery\1.JPG">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Resource>
     <Content Include="CSS\MainStyles.css" />
     <Content Include="CSS\Presentation\Presentation.css" />
     <Content Include="Images\Background\MainBackground.png" />
-    <Content Include="Images\Presentation\2.JPG" />
-    <Content Include="Images\Presentation\3.JPG" />
-    <Content Include="Images\Presentation\4.JPG" />
-    <Content Include="Images\Presentation\5.JPG" />
-    <Content Include="Images\Presentation\6.JPG" />
+    <Content Include="Images\Gallery\2.JPG" />
+    <Content Include="Images\Gallery\3.JPG" />
+    <Content Include="Images\Gallery\4.JPG" />
+    <Content Include="Images\Gallery\5.JPG" />
+    <Content Include="Images\Gallery\6.JPG" />
+    <Content Include="Images\Mark\Mark.jpg" />
+    <Content Include="Images\Presentation\current_product.PNG" />
     <Content Include="Web.config" />
     <Content Include="WebPages\Presentation.aspx" />
   </ItemGroup>

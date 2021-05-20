@@ -11,18 +11,26 @@
 </head>
 <body class="background">
     <form id="form1" runat="server">
-        <div class="panel-top">
-            <asp:Button runat="server" CssClass="panel-top__button"/>
-            <asp:Button runat="server" CssClass="panel-top__button"/>
-            <asp:Button runat="server" CssClass="panel-top__button"/>
+        <!--div class="panel-top">
+            <asp:Button runat="server" CssClass="panel-top__button" Text="Контакты"/>
+            <asp:Button runat="server" CssClass="panel-top__button" Text="О нас"/>
+            <asp:Button runat="server" CssClass="panel-top__button" Text="Услуги"/>
+            <asp:Button runat="server" CssClass="panel-top__button" Text="Записаться"/>
+        </div-->
+
+        <div class="mark-top">
+            <asp:Image runat="server" CssClass="mark-top" ImageUrl="~/Images/Mark/Mark.jpg" />
         </div>
+
         <div style="height: 10px"></div>
-        <div class="list-images">
-            <asp:Repeater ID="RepeaterImagePresentation" runat="server">
-                <ItemTemplate>
-                    <asp:Image runat="server" ImageUrl='<%# Container.DataItem %>' Height="400" Width="400"/>
-                </ItemTemplate>
-            </asp:Repeater>
+        <div class="board-main">
+            <asp:ImageButton runat="server" CssClass="board-main__currect-product" ImageUrl="~/Images/Presentation/current_product.PNG" />
+            <div class="panel-operations">
+                <asp:Button runat="server" CssClass="panel-operations__button" Text="Контакты"/>
+                <asp:Button runat="server" CssClass="panel-operations__button" Text="О нас"/>
+                <asp:Button runat="server" CssClass="panel-operations__button" Text="Услуги"/>
+                <asp:Button runat="server" CssClass="panel-operations__button" Text="Записаться" />
+            </div>
         </div>
     </form>
 </body>

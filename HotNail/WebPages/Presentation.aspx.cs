@@ -14,15 +14,6 @@ namespace HotNail.WebPages
         {
             if (!IsPostBack)
             {
-                string[] files = Directory.GetFiles(Server.MapPath("~/Images/Presentation"));
-                List<string> imgs = new List<string>();
-                foreach (string img in files)
-                {
-                    imgs.Add("~/Images/Presentation/" + Path.GetFileName(img));
-                }
-
-                RepeaterImagePresentation.DataSource = imgs;
-                RepeaterImagePresentation.DataBind();
             }
         }
     }
