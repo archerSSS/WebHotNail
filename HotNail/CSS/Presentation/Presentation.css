@@ -17,8 +17,12 @@
     margin-left: 10%;
     width: 10%;
     height: 50%;
-    animation-name: blink-button;
-    animation-duration: 1s;
+    transition: 0.5s;
+}
+
+.panel-top__button:hover {
+    background-color: #3e8e41;
+    color: white;
 }
 
 @keyframes blink-button{
