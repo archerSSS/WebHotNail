@@ -16,5 +16,25 @@ namespace HotNail.WebPages
             {
             }
         }
+
+        protected void ContactPage_Click(object sender, EventArgs e)
+        {
+            Server.Transfer("~/WebPages/ContactPage.aspx");
+        }
+
+        protected void DescriptionPage_Click(object sender, EventArgs e)
+        {
+            Server.Transfer("~/WebPages/DescriptionPage.aspx");
+        }
+
+        protected void OfferPage_Click(object sender, EventArgs e)
+        {
+            Server.Transfer("~/WebPages/OfferPage.aspx");
+        }
+
+        protected void AppointmentPage_Click(object sender, EventArgs e)
+        {
+            Server.Transfer("~/WebPages/AppointmentPage.aspx");
+        }
     }
 }

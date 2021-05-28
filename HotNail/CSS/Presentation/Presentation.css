@@ -1,8 +1,8 @@
-﻿.mark-top{
-    position: absolute;
-    width:200px;
-    height:220px;
-    margin-left:35%;
+﻿.logo-top{
+    position: relative;
+    width:10%;
+    height:15%;
+    margin-left:45%;
 }
 
 .list-images {
@@ -21,10 +21,10 @@
 
 .panel-operations__button {
     position: relative;
-    background-color: #3399bb;
-    border-radius: 30px;
+    background-color: #ff77cc;
+    border-radius: 40px;
     margin-top: 2%;
-    margin-left: 2%;
+    margin-left: 4%;
     width: 20%;
     height: 80px;
     font-size: 14px;
@@ -32,8 +32,8 @@
 }
 
     .panel-operations__button:hover {
-        background-color: #55aaee;
-        color: #3399bb;
+        background-color: #bb55aa;
+        color: #ddaacc;
     }
 
 .board-container {
@@ -45,7 +45,7 @@
 
 .board-main {
     position: relative;
-    margin-top: 20%;
+    margin-top: 8%;
     margin-left: 25%;
     width: 50%;
     height: 1000px;
@@ -61,9 +61,9 @@
 
 @keyframes blink-button{
     0%{
-        background-color: brown
+        background-color: #bb55aa;
     }
     100%{
-        background-color: coral
+        background-color: #ddaacc;
     }
 }
