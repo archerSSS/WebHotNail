@@ -76,6 +76,8 @@
     <Content Include="CSS\Others\Offer.css" />
     <Content Include="CSS\Presentation\Presentation.css" />
     <Content Include="Images\Background\MainBackground.png" />
+    <Content Include="Images\Contact\cellphone.png" />
+    <Content Include="Images\Contact\mail.png" />
     <Content Include="Images\Gallery\2.JPG" />
     <Content Include="Images\Gallery\3.JPG" />
     <Content Include="Images\Gallery\4.JPG" />
