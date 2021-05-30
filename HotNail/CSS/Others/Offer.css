@@ -1,2 +1,10 @@
-﻿body {
+﻿.board-main {
+    position: relative;
+    margin-top: 8%;
+    margin-left: 25%;
+    width: 50%;
+    height: 1000px;
+    background-color: #ccdde1;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5); /* Параметры тени */
+    padding: 10px;
 }

@@ -85,9 +85,13 @@
     <Content Include="Images\Gallery\6.JPG" />
     <Content Include="Images\Mark\Mark.jpg" />
     <Content Include="Images\Presentation\current_product.PNG" />
+    <Content Include="Texts\DescriptionObject.txt" />
     <Content Include="Web.config" />
     <Content Include="CSS\Others\Contact.css" />
     <Content Include="WebPages\ContactPage.aspx" />
+    <Content Include="WebPages\DescriptionObject1.txt" />
+    <Content Include="WebPages\DescriptionPage.aspx" />
+    <Content Include="WebPages\OfferPage.aspx" />
     <Content Include="WebPages\Presentation.aspx" />
   </ItemGroup>
   <ItemGroup>
@@ -98,6 +102,20 @@
     </Compile>
     <Compile Include="WebPages\ContactPage.aspx.designer.cs">
       <DependentUpon>ContactPage.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="WebPages\DescriptionPage.aspx.cs">
+      <DependentUpon>DescriptionPage.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WebPages\DescriptionPage.aspx.designer.cs">
+      <DependentUpon>DescriptionPage.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="WebPages\OfferPage.aspx.cs">
+      <DependentUpon>OfferPage.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WebPages\OfferPage.aspx.designer.cs">
+      <DependentUpon>OfferPage.aspx</DependentUpon>
     </Compile>
     <Compile Include="WebPages\Presentation.aspx.cs">
       <DependentUpon>Presentation.aspx</DependentUpon>
