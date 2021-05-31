@@ -67,6 +67,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="WebPages\WebForm1.aspx" />
     <Resource Include="Images\Gallery\1.JPG">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Resource>
@@ -132,6 +133,13 @@
     </Compile>
     <Compile Include="WebPages\Presentation.aspx.designer.cs">
       <DependentUpon>Presentation.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="WebPages\WebForm1.aspx.cs">
+      <DependentUpon>WebForm1.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WebPages\WebForm1.aspx.designer.cs">
+      <DependentUpon>WebForm1.aspx</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>
