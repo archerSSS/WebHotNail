@@ -9,11 +9,14 @@
     padding: 10px;
 }
 
-.board-main__description-text{
+.board-main__description-text {
     position: relative;
     width: 100%;
-    height: 50%;
-    font-size: 30px;
+    height: 100%;
+    font-size: 16px;
     font-weight: bold;
     text-align: center;
+    background-color: transparent;
+    resize:none;
+    border:none;
 }

@@ -9,9 +9,16 @@
     <link href="../CSS/Others/Offer.css" rel="stylesheet" type="text/css" />
     <link href="../CSS/MainStyles.css" rel="stylesheet" type="text/css" />
 </head>
-<body>
+<body class="background">
     <form id="form1" runat="server">
-        <div>
+        <div class="board-main">
+            <div class="offer-list">
+                <asp:Repeater ID="RepeaterImagePresentation" runat="server">
+                <ItemTemplate>
+                    <asp:Image runat="server" ImageUrl='<%# Container.DataItem %>' Height="200" Width="200" />
+                </ItemTemplate>
+            </asp:Repeater>
+            </div>
         </div>
     </form>
 </body>

@@ -84,6 +84,15 @@
     <Content Include="Images\Gallery\5.JPG" />
     <Content Include="Images\Gallery\6.JPG" />
     <Content Include="Images\Mark\Mark.jpg" />
+    <Content Include="Images\Offer\eye.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Offer\nails.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Offer\toes.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
     <Content Include="Images\Presentation\current_product.PNG" />
     <Content Include="Texts\DescriptionObject.txt" />
     <Content Include="Web.config" />

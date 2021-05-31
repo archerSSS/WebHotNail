@@ -8,18 +8,12 @@
     <title></title>
     <link href="../CSS/Others/Description.css" rel="stylesheet" type="text/css" />
     <link href="../CSS/MainStyles.css" rel="stylesheet" type="text/css" />
-    <script type="text/javascript">
-        window.onload = function () {
-            
-            document.getElementById("board-main__description-text-a").innerHTML = "dsaa: ";
-        }
-    </script>
 </head>
 <body class="background">
     <form id="form1" runat="server">
         <div class="board-main">
-            <textarea id="board-main__description-text-a"></textarea>
-            <!--object-- class="board-main__description-text" data="../Texts/DescriptionObject.txt"></!--object-->
+            <asp:TextBox runat="server" ID="TextDescription" TextMode="MultiLine" ReadOnly="true" CssClass="board-main__description-text" Text="">
+            </asp:TextBox>
         </div>
     </form>
 </body>
